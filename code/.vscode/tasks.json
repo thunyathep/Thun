@@ -1,0 +1,62 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "F:\\minGw\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"Helloworld.cpp",
+				"-o",
+				"Helloworld.exe"
+			],
+			"options": {
+				"cwd": "F:\\minGw\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: F:\\minGw\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "F:\\minGw\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"Helloworld.cpp",
+				"-o",
+				"Helloworld.exe"
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: F:\\minGw\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "F:\\minGw\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "F:\\minGw\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: F:\\minGw\\bin\\g++.exe"
+		}
+	]
+}
