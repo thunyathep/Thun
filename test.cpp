@@ -1,6 +1,11 @@
-#include <iosteam>
-using namespace std;
+#include <iostream>
 
-int main() {
+using namespace std
 
+int main(){
+    string profile;
+    cin >> profile;
+    cout << profile;
+    reture 0 ;
+    
 }
