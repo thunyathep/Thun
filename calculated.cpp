@@ -1,7 +1,7 @@
 #include <stdio.h>
+char opr;
+int result,num1,num2;
 int main(){
-    char opr;
-    int result,num1,num2;
     printf("Please enter number1:");
     scanf("%d",&num1);
     printf("Please enter number2:");
